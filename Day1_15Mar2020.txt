@@ -122,3 +122,159 @@
   122  cat Readme.txt
   123  history
   124  history >> Day1_15Mar2020.txt
+    1  ls
+    2  pwd
+    3  ls
+    4  uname -a
+    5  git
+    6  git --version
+    7  python --version
+    8  ls
+    9  git --version
+   10  git path
+   11  path git
+   12  which git
+   13  mkdir gitrepo
+   14  cd gitrepo
+   15  ls
+   16  ls -lart
+   17  su -i
+   18  su -
+   19  git init
+   20  git status
+   21  su -
+   22  sudo git init
+   23  history
+   24  git status
+   25  ls -lart
+   26  ls
+   27  pwd
+   28  ls -lart
+   29  echo "First File" >> Readme.txt
+   30  ls -alrt
+   31  ls -lart
+   32  git status
+   33  git --version
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "First Commit"
+   38  git status
+   39  git --help
+   40  cd /root
+   41  ls
+   42  cd /root
+   43  sudo cd /root
+   44  pwd
+   45  git show
+   46  git log
+   47  date
+   48  git show
+   49  git show 7eb5a55a879722a8882a422
+   50  git show
+   51  git log
+   52  git show 591a5985fd4c6d82920d5e147b892dfa49af5dba
+   53  echo 'secondfile'>>second.txt
+   54  echo 'thirdfile' >> third.txt
+   55  ls -alrt
+   56  git status
+   57  echo "fourthfile" >> four.txt
+   58  ls -alrt
+   59  ls -lart
+   60  git add second.txt third.txt 
+   61  git status
+   62  tree
+   63  sudo apt install tree
+   64  tree
+   65  ls
+   66  pwd
+   67  cd Desktop/
+   68  ls
+   69  cd gitrepo/
+   70  ls
+   71  echo "second" >> Readme.txt
+   72  cat Readme.txt
+   73  git status
+   74  git reset --hard
+   75  git status
+   76  cat Readme.txt
+   77  echo "second" >> Readme.txt
+   78  git status
+   79  git commit -m "Added new line"
+   80  git status
+   81  git add Readme.txt
+   82  git commit -m "Added Another line"
+   83  git log
+   84  git revert b4f565c7312976c8f3e8dee322e2b0563e74f5aa
+   85  git log
+   86  cat Readme.txt
+   87  git log
+   88  ls
+   89  echo "newline" >>Readme.txt
+   90  echo "thired line" >> Readme.txt
+   91  echo "Fourth line">> Readme.txt
+   92  ls
+   93  cat Readme.txt
+   94  git log
+   95  git reset HEAD 0 Readme.txt --hard
+   96  git reset HEAD 0 Readme.txt
+   97  cat Readme.txt
+   98  git reset --hard Head 1
+   99  git reset --hard HEAD 1
+  100  git reset HEAD 1 Readme.txt
+  101  cat Readme.txt
+  102  git reset --hard
+  103  cat Readme.txt
+  104  git log
+  105  echo "thired line" >> Readme.txt
+  106  git add Readme.txt 
+  107  git status
+  108  git add .
+  109  git commit -m "Sundar Added new file"
+  110  git log
+  111  git revert b4f565c7312976c8f3e8dee322e2b0563e74f5aa
+  112  git revert 79a2197198cf2b61fb1291022ce0d8b79894c267
+  113  tree
+  114  git status
+  115  git revert --continue
+  116  git revert --abort
+  117  git status
+  118  cat Readme.txt
+  119  git log
+  120  git revert 79a2197198cf2b61fb1291022ce0d8b79894c267
+  121  git status
+  122  cat Readme.txt
+  123  history
+  124  history >> Day1_15Mar2020.txt
+  125  ls
+  126  git branch -l
+  127  git branch
+  128  git branch develop
+  129  git branch -l
+  130  git checkout develop
+  131  git status
+  132  git branch
+  133  git reset --hard
+  134  cat "Develoop Branch" >> Readme.txt
+  135  echo "Develop Branch >> Readme.txt
+"
+  136  cat Readme.txt 
+  137  echo "Develop Branch" >> Readme.txt
+  138  cat Readme.txt 
+  139  git add .
+  140  git commit -m "Develop branch"
+  141  git log
+  142  ls
+  143  git branch
+  144  git log
+  145  git branch
+  146  git checkout master
+  147  git log
+  148  git branch
+  149  git merge develop
+  150  cat Readme.txt
+  151  git log
+  152  git remote add origin https://github.com/suvenkat79/SimplyLearn.git
+  153  git push -u origin master
+  154  ls
+  155  history >> Day1_15Mar2020.txt
