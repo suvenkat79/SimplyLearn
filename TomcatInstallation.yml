@@ -2,7 +2,7 @@
 - hosts: webservers
   vars:
     - http_port: 8080
-    - tomcat_version: 8.5.50
+    - tomcat_version: 8.5.53
     
   tasks:
     - name: add group "tomcat"
